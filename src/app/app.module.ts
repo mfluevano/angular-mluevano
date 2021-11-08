@@ -14,7 +14,12 @@ import { ProductAlertsComponent } from './product-alerts/product-alerts.componen
     ReactiveFormsModule,
     RouterModule.forRoot([{ path: '', component: ProductListComponent }]),
   ],
-  declarations: [AppComponent, TopBarComponent, ProductListComponent],
+  declarations: [
+    AppComponent,
+    TopBarComponent,
+    ProductListComponent,
+    ProductAlertsComponent,
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
